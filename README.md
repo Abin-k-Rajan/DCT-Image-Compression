@@ -1,5 +1,19 @@
 # DCT-Image-Compression
-Uses Discrete Cosine Transform or DCT to transform the image from spatial domain to frequency domain. Through this transform we can also eliminate low frequency data which helps reduce with size of image. This is a lossy method of compression. 
+Uses Discrete Cosine Transform or DCT to transform the image from spatial domain to frequency domain. Through this transform we can also eliminate low frequency data which helps reduce with size of image. This is a lossy method of compression.
+
+The code only supports grayscale image.
+
+Drawbacks of the code
+* Time Consuming
+* Contains 4 level for loops even with grayscale image
+
+Assosciated topics
+* FFT
+* DFT
+* DWT
+* DCT
+* DCTMAX
+* DCT2
 
 # Input File
 ![alt text](./testing.png)
